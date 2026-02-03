@@ -137,7 +137,7 @@ def main():
     )
     parser.add_argument(
         "path",
-        help="Directory path to scan"
+        help="Directory path to scan (absolute or relative path)"
     )
     parser.add_argument(
         "--patterns",
